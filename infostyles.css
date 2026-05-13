@@ -42,15 +42,16 @@ body {
 }
 
 .layout {
+    align-items: center;
     position: relative;
     display: flex;
     height: 100px;
 }
 
 .back {
-    position: absolute;
-    left: 0;
-    top: -10%;
+    position:absolute;
+    left: 5%;
+    top: -50%;
 }
 
 @media (max-width: 1080px) {
