@@ -6,39 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Cultorium Home</title>
+        <!--Open Graph Protocol-->
+        <meta property="og:title" content="Cultorium Creative Studios"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://cultorium.com/"/>
+        <meta property="og:imge" content="falta"/>
+        <!--3 nuevas integraciones metadatos-->
+        <meta property="og:description" content="This page is created for Cultorium_studios whit client and company´s for guide at the user for a new experience"/>
+        <meta property="og:locale" content="es_mx"/>
+        <meta property="og:site_name" content="Cultorium Creative Studios"/>
 </head>
 <body>
-    <div class="separacion">
-        <button class="logo" style="background-color: aquamarine;">
-            <a href="">
-                <img src="1x/Recurso_8.png" alt="cultorium" style="width: 100%; height: 90px;">
-                <img src="1x/Recurso_6.png" alt="creativestudios" style="width: 80%; height: 90px;">
-            </a>
-        </button>
-    </div>
-
-<div class="buttons_two">
-
-    <button class="customers">
-        <a href="customers.html">
-            <img src="1x/Recurso_3.png" alt="Customers" style="width: 300px; height: auto;">
-        </a>
-    </button>
-    <a href="studio_info.html">
-        <button class="studio_info">
-            <img src="1x/Recurso_1.png" alt="studio_info" style="width: 300px; height: auto;">
-        </button>
-    </a>
-</div>
-
-    <div class="button_one">
-        <a href="smart_outsourcing.html">
-            <button class="smart">
-                <img src="1x/Recurso_5.png" alt="home" style="width: 400px; height: auto;">
+    <header>
+        <nav>
+            <ul>
+                <li class="secciones s1"><a href="index.html">Home</a></li>
+                <li class="secciones s2"><a href="#about">About</a></li>
+                <li class="secciones s3"><a href="contact_info.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="separacion">
+            <button class="logo" style="background-color: aquamarine;">
+                <a href="" onclick="handleClick2()">
+                    <img src="1x/Recurso_8.png" alt="cultorium" style="width: 75%; height: auto;">
+                    <img src="1x/Recurso_6.png" alt="creativestudios" style="width: 50%; height: auto;">
+                </a>
             </button>
-        </a>
-    </div>
-
+        </div>
+        <div class="buttons_two">
+            <button class="customers">
+                <a href="customers.html">
+                    <img src="1x/Recurso_3.png" alt="Customers" style="width: 55%; height: auto;">
+                </a>
+            </button>
+            <a href="studio_info.html">
+                <button class="studio_info">
+                    <img src="1x/Recurso_1.png" alt="studio_info" style="width: 55%; height: auto;">
+                </button>
+            </a>
+        </div>
+        <div class="button_one">
+            <a href="smart_outsourcing.html">
+                <button class="smart">
+                    <img src="1x/Recurso_5.png" alt="home" style="width: 75%; height: auto;">
+                </button>
+            </a>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p style="color: aliceblue;">Copyright Cultorium</p>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
