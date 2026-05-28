@@ -7,7 +7,7 @@ body {
 }
 div {
     align-items: center;
-    display: block;
+    display: flex;
     justify-content: center;
 }
 
