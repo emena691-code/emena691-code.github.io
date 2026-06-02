@@ -17,23 +17,28 @@
             </ul>
         </nav>
     </header>
-
+<main>
     <div class="separacion"></div>
-
-    <div class="register">
-        <img src="3x/Recurso_4.png" alt="register_info"  style="width: 80%; height: auto;">
-        <div>
-            <input type="password" placeholder="User Access" style="border-radius: 10px; background-color: transparent; color: aliceblue; width: 80%; height: auto;">
+    <form action="">
+        <div class="register">
+            <img src="3x/Recurso_4.png" alt="register_info" style="width: 80%; height: auto; max-width: 600px; min-width: 350px;">
         </div>
-    </div>
-    <div class="access">
-        <a href="">
-            <button class="access_button">
+        <div>
+            <label for="pass"></label><br>
+            <input type="password" placeholder="User Access" name="pass" style="border-radius: 10px; background-color: transparent; color: aliceblue; width: 80%; height: auto;" required minlength="3" maxlength="10">
+        </div>
+        <div class="access">      
+            <button class="access_button" type="submit">
                 <img src="3x/Recurso_1.png" alt="access"  style="width: 50%; height: auto;">
-            </button>
-        </a>
-    </div>
-
+            </button> 
+        </div>
+    </form>
+</main>
+<style>
+    input:focus:invalid {
+       border-color: rgb(121, 24, 124); 
+    }
+</style>
     <footer>
         <div style="display: flex; margin-top: 30%;">
             <p style="color: aliceblue;">Copyright Cultorium</p>

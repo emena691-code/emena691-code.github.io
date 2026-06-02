@@ -20,18 +20,25 @@
     <div class="separacion"></div>
 
     <div class="register">
-        <img src="1x/Recurso_20.png" alt="" style="width: 80%; height: auto;">
-        <input type="password" placeholder="Client Access" style="border-radius: 10px; background-color: transparent; color: aliceblue; width: 80%; height: auto;">
+        <img src="1x/Recurso_20.png" alt="" style=" width: 80%; height: auto; min-width: 350px; max-width: 600px;">
     </div>
-    
-    <div class="access">
-        <a href="">
-            <button class="access_button">
+    <form action="">
+        <div>
+            <label for="clientName"></label>
+            <input type="password" placeholder="Client Access" style="border-radius: 10px; background-color: transparent; color: aliceblue; width: 80%; height: auto;" required minlength="3" maxlength="10">
+        </div>
+        <div class="access">
+            <button class="access_button" type="submit">
                 <img src="3x/Recurso_1.png" alt="" style="width: 70%; height: auto;">
             </button>
-        </a>
-    </div>
-
+        </div>
+    </form>
+    <style>
+    input:focus:invalid {
+       border-color: rgb(121, 24, 124); 
+    }
+    </style>
+    
     <footer>
         <div style="display: flex; margin-top: 30%;">
             <p style="color: aliceblue;">Copyright Cultorium</p>
